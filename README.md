@@ -22,6 +22,8 @@ alternatively (suggested):
 ## Using the docker-container:
 * Use (the command line of) the container (terminal of your machine): $ [sudo] docker exec -it <docker-container-name> /bin/bash
 * Starting tomcat (terminal of container): $ rocket.sh
+Attention: When the container is up and running, it provides only a postgres(+postgis) DBMS. In order to make Strabon available,
+you should start container's tomcat as described in the previous instruction.
 
 Now all the WEB Services tools (Sextant, Strabon, OnTop Spatial) are available in your machine's port 9999.
 
