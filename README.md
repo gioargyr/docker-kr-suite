@@ -8,21 +8,22 @@ You need to install docker engine for following any of the instructions below (h
 
 ## Build docker-image from source (Dockerfile)
 * Clone https://github.com/gioargyr/docker-kr-suite
-* Go to /<file_path_to>/kr-suite and build (terminal of your machine): [sudo] docker build -t <docker-image-name> .
+* Go to /<file_path_to>/kr-suite and build (terminal of your machine): [sudo] docker build -t __docker-image-name__ .
 
 ## OR
 alternatively (suggested):
-* follow the instructions below and use as docker <docker-image-name> the "gioargyr/kr-suite:1.0.0" (already built image).
+* follow the instructions below and use as docker __docker-image-name__ the "gioargyr/kr-suite:1.0.0" (already built image).
 
 ## Create docker-container from docker-image:
-* A docker-image named <docker-image-name> is available either locally (previously built), or in DockerHub.
-* Use the docker-image (terminal of your machine): $ [sudo] docker run --name <docker-container-name> -p 9999:8080 -v /<some_dir>:/inout <docker-image-name>
-* Now the docker-container <docker-container-name> should be running.
+* A docker-image named __docker-image-name__ is available either locally (previously built), or in DockerHub.
+* Use the docker-image (terminal of your machine): $ [sudo] docker run --name __docker-container-name__ -p 9999:8080 -v /<some_dir>:/inout __docker-image-name__
+* Now the docker-container __docker-container-name__  should be running.
 
 ## Using the docker-container:
-* Use (the command line of) the container (terminal of your machine): $ [sudo] docker exec -it <docker-container-name> /bin/bash
+* Use (the command line of) the container (terminal of your machine): $ [sudo] docker exec -it __docker-container-name__  /bin/bash
 * Starting tomcat (terminal of container): $ rocket.sh
-Attention: When the container is up and running, it provides only a postgres(+postgis) DBMS. In order to make Strabon and Sextant available,
+
+**Attention**  When the container is up and running, it provides only a postgres(+postgis) DBMS. In order to make Strabon and Sextant available,
 you should start container's tomcat as described in the previous instruction.
 
 Now all the WEB Services tools (Sextant, Strabon, OnTop Spatial) are available in your machine's port 9999.
