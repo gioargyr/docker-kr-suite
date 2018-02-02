@@ -8,7 +8,7 @@ You need to install docker engine for following any of the instructions below (h
 
 ## Build docker-image from source (Dockerfile)
 * Clone https://github.com/gioargyr/docker-kr-suite
-* Go to /<file_path_to>/kr-suite and build (terminal of your machine): [sudo] docker build -t __docker-image-name__ .
+* Go to /<file_path_to>/kr-suite and build (terminal of your machine): `$ [sudo] docker build -t __docker-image-name__ . `
 
 ## OR
 alternatively (suggested):
