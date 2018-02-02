@@ -11,9 +11,9 @@ You need to install docker engine for following any of the instructions below (h
 * Go to /<file_path_to>/kr-suite and build (terminal of your machine): `[sudo] docker build -t docker-image-name .` 
 (Attention to the dot at the end of the command.)
 
-## OR
-alternatively (suggested):
-* follow the instructions below and use as docker _docker-image-name_ the __gioargyr/kr-suite:1.0.0__ (already built image).
+~~## OR~~
+~~alternatively (suggested):~~
+~~* follow the instructions below and use as docker _docker-image-name_ the __gioargyr/kr-suite:1.0.0__ (already built image).~~
 
 ## Create docker-container from docker-image:
 * A docker-image named _docker-image-name_ is available either locally (previously built), or in DockerHub.
