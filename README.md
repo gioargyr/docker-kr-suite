@@ -1,3 +1,8 @@
+# ATTENTION: THIS REPO HAS BEEN MOVED TO https://github.com/gioargyr/docker-krrasuite
+All tools are in DockerHub with automated build. You can just pull the images.
+Give extra attention to each tool's README.md file.
+
+
 # KR-SUITE
 
 This KR-suite docker packs all the linked data tools developed by the [KRR&A team](http://kr.di.uoa.gr/) of the [National and Kapodistrian Univeristy of Athens](http://www.di.uoa.gr/). The KR-suite contains the following open source tools:
